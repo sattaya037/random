@@ -32,7 +32,7 @@ class Counter extends Component {
         console.log("click 1: "+a);
     }else if(this.state.count===2){ //เงื่อนไขเมื่อ กดปุ่ม 2 ครั้ง
         a.splice(Math.floor(Math.random()*a.length), 25);
-        this.setState({ array: a }) 
+        this.setState({ array: a })  //กำหนด state array เข้าไปใหม่
         console.log("click 2: "+a);
     }else if(this.state.count===3){ //เงื่อนไขเมื่อ กดปุ่ม 3 ครั้ง
         a.splice(Math.floor(Math.random()*a.length), 10);
